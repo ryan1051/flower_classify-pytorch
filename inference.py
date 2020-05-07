@@ -105,5 +105,5 @@ def inference(image, checkpoint_path):
     fig.savefig("inference.png")
 
 
-inference('/home/ruwei/MyCode/pytorch/flower_classify/flower_data/valid/2/image_05101.jpg', 'output/checkpoint.pt')
+inference('/flower_classify/flower_data/valid/2/image_05101.jpg', 'output/checkpoint.pt')
 
